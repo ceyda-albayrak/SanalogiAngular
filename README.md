@@ -6,22 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Pictures Of The Project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Ekran Alıntısı1](https://user-images.githubusercontent.com/58356559/133401159-c1629838-3a76-4b09-8912-0611aed0aae9.PNG)
+![Ekran Alıntısı2](https://user-images.githubusercontent.com/58356559/133401175-c7c5fa02-b4f1-4741-90f9-244170895ec9.PNG)
+![Ekran Alıntısı3](https://user-images.githubusercontent.com/58356559/133401179-2dc01ea3-875f-4db7-aad1-372e2a0d2e8d.PNG)
+![Ekran Alıntısı4](https://user-images.githubusercontent.com/58356559/133401197-b16c5d1d-62b2-4d09-87c3-127483c41363.PNG)

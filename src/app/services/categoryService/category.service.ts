@@ -14,7 +14,9 @@ export class CategoryService {
 
   getCategories():Observable<ListResponseModel<Category>>{
     let newPath=this.apiUrl+"GetCategories";
-    return this.httpClient.get<ListResponseModel<Category>>(newPath);
+    var sonuc= this.httpClient.get<ListResponseModel<Category>>(newPath);
+    console.log(sonuc);
+    return sonuc;
   }
 
 }

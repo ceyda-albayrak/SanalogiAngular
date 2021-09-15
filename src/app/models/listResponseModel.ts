@@ -1,3 +1,3 @@
 export interface ListResponseModel<T>{
-    results:T[];
+    data:T[];
 } 

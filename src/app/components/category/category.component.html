@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="spinner-border" role="status" *ngIf="dataLoaded == false">
+        <span class="visually-hidden"  >Loading...</span>
+    </div>
+    <div class="row ">
+       
+        <div class="col-3"><div class="col"><span class="badge rounded-pill bg-success">Total Number Of Categories:  {{categories.length}}</span></div>
+            <div *ngIf="filterText!=''" class="col bdg"><span class="badge rounded-pill bg-success">Number Of Data Filtered : {{filterMetaData.count}}</span></div></div>
+        <div class="col-9" >
+            
+            <form class="form-floating mb-3" >
+                <input class="form-control" type="text" [(ngModel)]="filterText" id="floatingInput" placeholder="Search" aria-label="Search" [ngModelOptions]="{standalone: true}">
+                <label for="floatingInput">Category Search</label>
+            </form>
+            <table class="table  table-striped mt-3"  >
+                <thead>
+                    <tr class="tbl">
+                        <th scope="col">Numara</th>
+                        <th scope="col">Hal Id</th>
+                        <th scope="col">Kategori</th>
+                    </tr>
+                </thead>
+                <tbody *ngIf="dataLoaded == true">
+                    <tr  *ngFor="let category of categories  | categoryFilter:filterText:filterMetaData ; index as i">
+                        <td>{{i+1}}</td>
+                        <td>{{category.halId}}</td>
+                        <td>{{category.kategori}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

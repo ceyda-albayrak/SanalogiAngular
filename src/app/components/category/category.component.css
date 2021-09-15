@@ -1,0 +1,27 @@
+.container{
+    margin-top: 5%;
+}
+
+.col{
+    font-size: 25px;
+   
+}
+
+.search{
+    font-size: 20px;
+    margin-bottom: 0.2%;
+    
+}
+
+.tbl{
+    background-color: cadetblue;
+    border-radius: 10%;
+    color: white;
+}
+
+.bdg{
+    margin-top: 10%;
+}
+.spinner-border{
+    margin-left: 40%;
+}

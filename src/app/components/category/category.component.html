@@ -1,7 +1,5 @@
 <div class="container">
-    <div class="spinner-border" role="status" *ngIf="dataLoaded == false">
-        <span class="visually-hidden"  >Loading...</span>
-    </div>
+   
     <div class="row ">
        
         <div class="col-3"><div class="col"><span class="badge rounded-pill bg-success">Total Number Of Categories:  {{categories.length}}</span></div>
@@ -20,7 +18,7 @@
                         <th scope="col">Kategori</th>
                     </tr>
                 </thead>
-                <tbody *ngIf="dataLoaded == true">
+                <tbody >
                     <tr  *ngFor="let category of categories  | categoryFilter:filterText:filterMetaData ; index as i">
                         <td>{{i+1}}</td>
                         <td>{{category.halId}}</td>
